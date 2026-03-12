@@ -1,0 +1,54 @@
+{
+  "_comentarios": {
+    "excel_path": "Caminho completo do Excel sincronizado pelo Google Drive Desktop",
+    "powerbi_pbix_path": "Caminho completo do arquivo .pbix do Power BI",
+    "powerbi_exe_path": "Caminho do executável do Power BI Desktop",
+    "excel_local_path": "Opcional: copiar o Excel para outra pasta antes de abrir no PBI (deixe vazio se não precisar)",
+    "modo": "monitoramento | agendado | ambos | unico",
+    "cooldown_segundos": "Tempo mínimo entre duas atualizações consecutivas",
+    "fechar_powerbi_antes": "Se true, fecha o Power BI antes de reabrir",
+    "aguardar_segundos_antes_abrir": "Segundos após fechar antes de reabrir",
+    "aguardar_carregamento_pbi": "Segundos para o Power BI carregar o modelo (aumente se tiver dataset grande)",
+    "fazer_backup": "Se true, cria backup do Excel antes de cada atualização",
+    "auto_click.ativo": "Se true, simula o clique em Atualizar automaticamente via pyautogui",
+    "auto_click.metodo": "teclado = usa atalho Alt+H+R (recomendado) | imagem = localiza o botão na tela",
+    "auto_click.imagem_botao": "Somente para metodo=imagem: caminho de um screenshot do botão Atualizar",
+    "auto_click.aguardar_refresh_segundos": "Segundos para aguardar o refresh concluir após clicar",
+    "agendamento.ativo": "Se true, ativa atualizações periódicas",
+    "agendamento.intervalo_minutos": "Intervalo entre atualizações (ignorado se horarios_fixos estiver preenchido)",
+    "agendamento.horarios_fixos": "Lista de horários fixos HH:MM. Ex: ['08:00', '12:00', '18:00']"
+  },
+
+  "excel_path": "C:\\Users\\SEU_USUARIO\\Google Drive\\Minha pasta\\planilha.xlsx",
+
+  "powerbi_pbix_path": "C:\\Users\\SEU_USUARIO\\Documents\\relatorio.pbix",
+
+  "powerbi_exe_path": "C:\\Program Files\\Microsoft Power BI Desktop\\bin\\PBIDesktop.exe",
+
+  "excel_local_path": "",
+
+  "modo": "ambos",
+
+  "cooldown_segundos": 30,
+
+  "fechar_powerbi_antes": true,
+
+  "aguardar_segundos_antes_abrir": 3,
+
+  "aguardar_carregamento_pbi": 20,
+
+  "fazer_backup": true,
+
+  "auto_click": {
+    "ativo": true,
+    "metodo": "teclado",
+    "imagem_botao": "",
+    "aguardar_refresh_segundos": 15
+  },
+
+  "agendamento": {
+    "ativo": true,
+    "intervalo_minutos": 60,
+    "horarios_fixos": []
+  }
+}
