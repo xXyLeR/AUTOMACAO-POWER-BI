@@ -1,6 +1,6 @@
 ⚡ AUTOMAÇÃO POWER BI + EXCEL
 Google Drive → Power BI Desktop
-Versão 2.0 — Com clique automático e log visual HTML
+Versão - Com clique automático e log visual HTML
 
 O que essa automação faz?
 	•	Monitora automaticamente qualquer alteração salva no seu arquivo Excel
