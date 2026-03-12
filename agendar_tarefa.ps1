@@ -1,5 +1,5 @@
 # ================================================
-#   AGENDADOR DE TAREFAS DO WINDOWS - v2
+#   AGENDADOR DE TAREFAS DO WINDOWS
 # ================================================
 # Execute com: PowerShell -ExecutionPolicy Bypass -File agendar_tarefa.ps1
 
@@ -36,7 +36,7 @@ Register-ScheduledTask `
     -Trigger $Gatilho `
     -Settings $Config `
     -RunLevel Highest `
-    -Description "Automacao Power BI + Excel v2" | Out-Null
+    -Description "Automacao Power BI + Excel" | Out-Null
 
 Write-Host "[OK] Tarefa criada! A automacao iniciara com o Windows." -ForegroundColor Green
 
