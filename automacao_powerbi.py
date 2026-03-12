@@ -1,6 +1,6 @@
 """
 ========================================================
-  AUTOMAÇÃO POWER BI + EXCEL (Google Drive) v2.0
+  AUTOMAÇÃO POWER BI + EXCEL (Google Drive)
   Novidades:
     - Clique automático em "Atualizar" via pyautogui
     - Log visual em HTML com histórico de mudanças
