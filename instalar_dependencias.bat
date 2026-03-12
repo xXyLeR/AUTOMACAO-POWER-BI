@@ -1,7 +1,7 @@
 @echo off
 chcp 65001 > nul
 echo ================================================
-echo   INSTALACAO DE DEPENDENCIAS - Auto Power BI v2
+echo   INSTALACAO DE DEPENDENCIAS - Auto Power BI
 echo ================================================
 echo.
 
