@@ -1,8 +1,8 @@
 @echo off
 chcp 65001 > nul
-title Automacao Power BI + Excel v2
+title Automacao Power BI + Excel 
 echo ================================================
-echo   AUTOMACAO POWER BI + EXCEL v2.0
+echo   AUTOMACAO POWER BI + EXCEL 
 echo ================================================
 echo.
 echo Iniciando monitoramento...
